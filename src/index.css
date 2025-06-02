@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.todolist {
+  margin-top: 100px;
+  font-family: arial;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.1cm;
+  padding: 0.2cm;
+  margin-right: 0.1cm;
 }
+input{
+  font-size: 1.3em;
+  padding: 0.22cm;
+  margin-right: 0.1cm;
+  border-radius: 0.1cm;
+  border:2px solid rgba(128, 128, 128, 0.408);
+}
+.addButton{
+  background-color:rgb(13, 182, 13);
+  padding: 0.3cm;
+}
+.addButton:hover{
+  background-color:hsla(120, 87%, 38%, 0.766);
+}
+.deleteButton{
+  background-color: red;
+}
+.deleteButton:hover{
+  background-color: hsla(0, 100%, 50%, 0.766);
+}
+
+ol{
+  align-items: center;
+}
+li{
+  display: flex;
+  padding: 1.7px;
+  border: 2px solid rgba(128, 128, 128, 0.408);
+  align-items: center;
+  margin: 4px;
+  margin-left: 14.5cm;
+  border-radius: 0.1cm;
+  max-width: 9cm;
+}
+.text{
+  flex: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+
+
